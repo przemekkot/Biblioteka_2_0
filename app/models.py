@@ -1,6 +1,6 @@
 # app/models.py
 from app import db
-
+from datetime import date
 
 class Author(db.Model):
     id = db.Column(db.Integer, primary_key=True)
